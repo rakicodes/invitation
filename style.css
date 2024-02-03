@@ -1,0 +1,46 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: rgb(243, 204, 217);
+	color: rgb(255, 249, 251);
+	font-family: "Caveat", cursive;
+}
+#msg {
+	text-align: center;
+}
+button {
+	border-radius: 20px;
+	border: none;
+	color: rgb(255, 249, 251);
+	background-color: rgb(178, 85, 116);
+	padding: 15px 30px;
+	font-family: "Gochi Hand", cursive;
+	font-size: 32px;
+	cursor: pointer;
+}
+.container {
+	min-height: 400px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	column-gap: 20px;
+	position: absolute;
+	left: 0;
+	bottom: -35px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.giphy {
+	width: 200px;
+	height: 200px;
+}
